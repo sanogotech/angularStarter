@@ -2,9 +2,10 @@
 Angular  Starter
 
 ## Docs
+- https://angular.io/tutorial/toh-pt1
 - https://angular.io/cli
 - https://lachimi.com/angular/import-all-angular-material-components-into-your-module
-
+- https://lachimi.com/angular/file-structure
 ## Install
 
 - NodeJs  :  node --version
