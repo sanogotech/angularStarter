@@ -1,5 +1,7 @@
 # angularStarter
-Angular  Starter
+Angular  Starter  SPA.
+
+[Angular Components ](https://github.com/sanogotech/angularStarter/blob/main/docs/images/nav-diagramtourofheroes.png)
 
 ## Docs
 - https://angular.io/tutorial/toh-pt1
