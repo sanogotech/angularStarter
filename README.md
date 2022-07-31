@@ -1,5 +1,7 @@
 # angularStarter
-Angular  Starter
+Angular  Starter  SPA.
+
+![Angular Components ](https://github.com/sanogotech/angularStarter/blob/main/docs/images/nav-diagramtourofheroes.png)
 
 ## Docs
 - https://angular.io/tutorial/toh-pt1
@@ -27,6 +29,13 @@ ng add @angular/material
 ```
 npm cache clean --force
 ng new  mysampleproject
+```
+
+##  Generate Component
+```
+ng generate --help
+>ng generate component   ./components/hero-detail
+
 ```
 
 ##  Debug Anglar with Augury chrome extension
