@@ -31,4 +31,11 @@ npm cache clean --force
 ng new  mysampleproject
 ```
 
+##  Generate Component
+```
+ng generate --help
+>ng generate component   ./components/hero-detail
+
+```
+
 ##  Debug Anglar with Augury chrome extension
