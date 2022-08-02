@@ -22,5 +22,9 @@ export class CommonheaderComponent implements OnInit {
     this.dateNaissance= new Date();
 
   }
+  
+  setValue() {
+    this.nom = 'GeeksforGeeks';
+  }
 
 }
