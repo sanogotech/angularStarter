@@ -7,12 +7,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CommonheaderComponent implements OnInit {
 
-  nom !:String;
-  prenom !:String;
+  nom !:string;
+  prenom !:string;
   dateNaissance !:Date;
   age !:Number;
   salaire!:number;
-  myphoto!:String;
+  myphoto!:string;
+  users: any[] = [{ 
+    "name": "Bob" 
+    }, { 
+    "name": "Alice" 
+    }, { 
+    "name": "Tabor" 
+    }, { 
+    "name": "Mock" 
+    }]; 
 
   constructor() {
 

@@ -13,6 +13,9 @@
 
 <p> {{ salaire |number:'1.0-1'}}</p>
 
+<h2>{{ prenom | lowercase }}</h2>
+<h2>{{ prenom | titlecase }}</h2>
+
 <br/>
 
 <p> Form Data Binding Two Ways  ...</p>
@@ -34,3 +37,9 @@
  
 <p> Event Data binding  ...</p>
  <button type="submit" (click)="sendFormData()">OK</button>
+
+ <p> Directive *ngFor  ...</p>
+ <li *ngFor="let user of users">  
+    {{ user.name }} 
+    </li> 
+    
