@@ -12,6 +12,7 @@ export class CommonheaderComponent implements OnInit {
   dateNaissance !:Date;
   age !:Number;
   salaire!:number;
+  myphoto!:String;
 
   constructor() {
 
@@ -22,6 +23,7 @@ export class CommonheaderComponent implements OnInit {
     this.prenom ="Souleymane";
     this.dateNaissance= new Date();
     this.salaire = 200005.6897;
+    this.myphoto ="assets/myavatar.jpg"
 
   }
   

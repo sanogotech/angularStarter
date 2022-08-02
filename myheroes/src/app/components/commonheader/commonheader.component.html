@@ -1,20 +1,36 @@
 <p>commonheader works!  ... Test</p>
 
+<br/>
+<p> String  interpolation  ... </p>
 <p> {{dateNaissance}}</p>
 
+<br/>
+
+<p> Angular  Pipe ...</p>
 <p> {{salaire}}</p>
 
 <p> {{salaire|number}}</p>
 
 <p> {{ salaire |number:'1.0-1'}}</p>
 
+<br/>
 
-
-
+<p> Form Data Binding Two Ways  ...</p>
 <input type="text" [(ngModel)]="nom">
 
 <p> {{nom}}</p>
 
- <!-- <input [(ngModel)]="nom"> -->
 
+ 
+<p> Property Binding  ...</p>
+
+<img [src]="myphoto" alt="{{nom}}" width="25" height="25">
+
+<img src="{{myphoto}}" alt="{{nom}}"  width="50" height="50">
+
+
+<br/>
+
+ 
+<p> Event Data binding  ...</p>
  <button type="submit" (click)="sendFormData()">OK</button>
