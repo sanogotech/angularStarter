@@ -11,6 +11,7 @@ export class CommonheaderComponent implements OnInit {
   prenom !:String;
   dateNaissance !:Date;
   age !:Number;
+  salaire!:number;
 
   constructor() {
 
@@ -20,11 +21,16 @@ export class CommonheaderComponent implements OnInit {
     this.nom="SANOGO";
     this.prenom ="Souleymane";
     this.dateNaissance= new Date();
+    this.salaire = 200005.6897;
 
   }
   
   setValue() {
     this.nom = 'GeeksforGeeks';
+  }
+
+  sendFormData(){
+    this.nom = "MASSA  SALOMON";
   }
 
 }

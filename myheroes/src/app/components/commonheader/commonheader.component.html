@@ -2,6 +2,12 @@
 
 <p> {{dateNaissance}}</p>
 
+<p> {{salaire}}</p>
+
+<p> {{salaire|number}}</p>
+
+<p> {{ salaire |number:'1.0-1'}}</p>
+
 
 
 
@@ -10,3 +16,5 @@
 <p> {{nom}}</p>
 
  <!-- <input [(ngModel)]="nom"> -->
+
+ <button type="submit" (click)="sendFormData()">OK</button>
