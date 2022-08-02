@@ -4,6 +4,7 @@ Angular  Starter  SPA.
 ![Angular Components ](https://github.com/sanogotech/angularStarter/blob/main/docs/images/nav-diagramtourofheroes.png)
 
 ## Docs
+- https://angular.io/guide/cheatsheet
 - https://angular.io/tutorial/toh-pt1
 - https://angular.io/cli
 - https://lachimi.com/angular/import-all-angular-material-components-into-your-module
