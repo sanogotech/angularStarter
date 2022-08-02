@@ -13,7 +13,8 @@ import { CommonheaderComponent } from './components/commonheader/commonheader.co
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
