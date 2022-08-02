@@ -5,6 +5,7 @@ Angular  Starter  SPA.
 
 ## Docs
 - https://angular.io/guide/cheatsheet
+- https://www.knowledgehut.com/blog/web-development/angular-cheat-sheet
 - https://angular.io/tutorial/toh-pt1
 - https://angular.io/cli
 - https://lachimi.com/angular/import-all-angular-material-components-into-your-module
