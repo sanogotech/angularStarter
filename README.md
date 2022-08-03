@@ -5,6 +5,9 @@ Angular  Starter  SPA.
 
 ## Docs
 - https://michaelscodingspot.com/web-application-development/
+- https://material.angular.io/
+- https://mdbootstrap.com/docs/angular/ : Material Design for BootStrap
+- https://www.telerik.com/blogs/angular-basics-how-to-use-services-angular
 - https://angular.io/guide/cheatsheet
 - https://www.knowledgehut.com/blog/web-development/angular-cheat-sheet
 - https://angular.io/api/common/DecimalPipe
