@@ -4,6 +4,7 @@ Angular  Starter  SPA.
 ![Angular Components ](https://github.com/sanogotech/angularStarter/blob/main/docs/images/nav-diagramtourofheroes.png)
 
 ## Docs
+- https://michaelscodingspot.com/web-application-development/
 - https://angular.io/guide/cheatsheet
 - https://www.knowledgehut.com/blog/web-development/angular-cheat-sheet
 - https://angular.io/api/common/DecimalPipe
