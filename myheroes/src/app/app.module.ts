@@ -8,6 +8,7 @@ import { CommonheaderComponent } from './components/commonheader/commonheader.co
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatSliderModule } from '@angular/material/slider';
+import { MatDividerModule } from '@angular/material/divider';
 import { MatToolbarModule} from  '@angular/material/toolbar';
 import { MatSidenavModule} from  '@angular/material/sidenav';
 import {MatListModule} from  '@angular/material/list';
@@ -28,7 +29,8 @@ import {MatIconModule} from  '@angular/material/icon';
     MatSidenavModule,
     MatListModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
+    MatDividerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
