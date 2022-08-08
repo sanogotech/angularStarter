@@ -19,7 +19,8 @@ import { MatRadioModule } from '@angular/material/radio';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatFormFieldModule} from '@angular/material/form-field';
 import { MatDatepickerModule } from '@angular/material/datepicker';
-import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatPaginatorModule } from '@angular/material/paginator';
+
 import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
@@ -39,7 +40,13 @@ import { HomeComponent } from './components/home/home.component';
     MatButtonModule,
     MatIconModule,
     MatDividerModule,
-    MatCardModule
+    MatCardModule,
+    MatRadioModule,
+    MatCheckboxModule,
+    MatFormFieldModule,
+    MatDatepickerModule,
+    MatSliderModule,
+    MatPaginatorModule
   ],
   providers: [],
   bootstrap: [AppComponent]

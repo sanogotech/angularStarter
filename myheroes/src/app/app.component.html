@@ -7,12 +7,10 @@
     <h1>SimpleCRM</h1>
     <span class="menu-spacer"></span>
     <div>
+      <a mat-button [routerLink]="'/home'"> Home </a>
       <a mat-button [routerLink]="'/tutorials'"> Tutorials </a>
-      <a mat-button [routerLink]="'/'"> Create Account </a>
-      <a mat-button [routerLink]="'/'"> Contacts </a>
-      <a mat-button [routerLink]="'/'"> Create Contact </a>
-      <a mat-button [routerLink]="'/'"> Activities </a>
-      <a mat-button [routerLink]="'/'"> Create Activity </a>
+      <a routerLink="/home">HomeDashboard</a>
+  
 
     </div>
   </mat-toolbar-row>
@@ -28,13 +26,9 @@
   <mat-sidenav #sidenav>
     <mat-nav-list>
 
+      <a mat-list-item [routerLink]="'/home'"> Home </a>
       <a mat-list-item [routerLink]="'/tutorials'"> Tutorials </a>
-      <a mat-list-item [routerLink]="'/'"> Create Account </a>
-      <a mat-list-item [routerLink]="'/'"> Contacts </a>
-      <a mat-list-item [routerLink]="'/'"> Create Contact </a>
-      <a mat-list-item [routerLink]="'/'"> Activities </a>
-      <a mat-list-item [routerLink]="'/'"> Create Activity </a>
-      <a mat-list-item (click)="sidenav.toggle()" href="" mat-list-item>Close</a>
+
 
     </mat-nav-list>
   </mat-sidenav>
@@ -53,6 +47,6 @@
 </mat-sidenav-container>
 
 
-  
+
 
 
